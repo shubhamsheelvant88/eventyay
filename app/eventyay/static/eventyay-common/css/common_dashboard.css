@@ -3074,7 +3074,7 @@ body:has(.od-dashboard) #page-content {
 
 .od-kpi-grid {
   display: grid;
-  grid-template-columns: repeat(6,minmax(0,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(max(170px, calc((100% - 5 * 12px) / 6)), 1fr));
   gap: 12px;
   align-items: stretch;
 }
@@ -3095,7 +3095,6 @@ body:has(.od-dashboard) #page-content {
   height: 100%;
   box-sizing: border-box;
   transition: transform .2s ease,box-shadow .2s ease,border-color .2s ease;
-  padding: 0 10px;
 }
 .od-kpi-card:focus,
 .od-kpi-card:hover {
