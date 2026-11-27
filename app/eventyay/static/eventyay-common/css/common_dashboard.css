@@ -169,7 +169,7 @@
   --td-purple: #7c3aed;
   --td-purple-soft: #f5f3ff;
   --td-border: #e5e7eb;
-  --td-text: #111827;
+  --td-text: #222222;
   --td-muted: #6b7280;
   --td-bg: #f4f6f9;
   --td-radius: 4px;
@@ -241,7 +241,7 @@ body:has(.td-dashboard) #page-content {
   font-size: 24px;
   font-weight: 800;
   letter-spacing: -.3px;
-  color: #0f172a;
+  color: #222222;
   display: flex;
   align-items: center;
   gap: 10px;
